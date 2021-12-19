@@ -1,0 +1,265 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000000;
+}
+
+.btn-login {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+    border-radius: 3px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.btn-login:hover {
+    color: #ffffff !important;
+}
+
+header {
+    z-index: 10;
+}
+
+section {
+    border-bottom: 8px solid #222;
+}
+
+.logo {
+    max-width: 136px;
+    height: auto;
+}
+
+.box-background, .content {
+    height: 83.27vh;
+    overflow: hidden;
+}
+
+.content h1 {
+    font-size: 3.125rem;
+}
+
+.content h2, .contentrodape h2 {
+    font-size: 1.625rem;
+}
+
+.content .form-control, .contentrodape .form-control {
+    height: 60px;
+}
+
+.content .input-group-text, .contentrodape .input-group-text {
+    background-color: #ff0000;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.content .icon-setadireita, .contentrodape .icon-setadireita {
+    height: 1.2rem;
+}
+
+.box .box-background img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    webkit-text-size-adjust: 100%;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+#video1 {
+    z-index: -9;
+}
+
+.video-tv video {
+    position: absolute;
+    left: 13.5%;
+    top: 21%;
+    max-width: 72.5%;
+}
+
+.video-tv2 video {
+    position: absolute;
+    left: 18.5%;
+    top: 11%;
+    max-width: 60%;
+    z-index: -9;
+}
+
+.mobile-card {
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: #000;
+    width: 60%;
+    min-width: 15em;
+    padding: .25em .65em;
+    border: 2px solid rgba(255,255,255,.25);
+    -webkit-border-radius: .75em;
+    -moz-border-radius: .75em;
+    border-radius: .75em;
+    height: 90px;
+}
+
+.card-image img {
+    height: 4.5rem;
+}
+
+.mobile-card .gif img {
+    width: 3rem;
+}
+.mobile-card h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mobile-card label {
+    font-size: .7rem;
+    color: blue;
+}
+
+.perguntas .accordion button {
+    background-color: #303030;
+    padding: 1.1rem 2.2rem 1.1rem 1.2rem;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    position: relative;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.perguntas .accordion .card-body {
+    background-color: #303030;
+    padding: 1.1rem 2.2rem 1.1rem 1.2rem;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.perguntas .accordion button span {
+    position: absolute;
+    right: 10px;
+    font-size: 3.4rem;
+    line-height: 1.1;
+    top: 0;
+}
+
+.perguntas .accordion button[aria-expanded="true"] span {
+    transform: rotate(135deg);
+    line-height: 1.5;
+}
+
+footer, footer a {
+    color: #626262;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: #626262;
+}
+
+footer select {
+    background-color: #000000;
+    background-image: none;
+    border: 1px solid #333333;
+    color: #999999;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 26px;
+    padding-left: 50px;
+    line-height: 1.7;
+}
+
+img.globorodape {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 16px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        max-height: 24px;
+    }
+
+    .btn-login {
+        max-height: 24px;
+        font-size: .9rem;
+        padding: 2px 17px;
+    }
+
+    .box .box-background img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content h1 {
+        font-size: 1.4rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .content h5 {
+        font-size: 1rem;
+    }
+
+    .content .form-control {
+        height: 48px;
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 0px;
+    }
+
+    .content .input-group-text {
+        border-radius: 0px;
+        font-size: .8rem;
+    }
+
+    section .title {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    section .subtitle {
+        font-size: 1.12rem;
+        text-align: center;
+    }
+
+    .perguntas .accordion button {
+        font-size: 1.2rem;
+    }
+
+    .perguntas .accordion .card-body {
+        font-size: 1.2rem;
+    }
+}
